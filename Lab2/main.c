@@ -239,7 +239,8 @@ int mkdir(char *name)
   printf("--------------------------------------\n");
 
   free(p_path);
-    
+  free(n_path);
+
   return 0;
 }
 
@@ -366,6 +367,7 @@ int creat(char *name){
   printf("--------------------------------------\n");
 
   free(p_path);
+  free(n_path);
     
   return 0;
 }
